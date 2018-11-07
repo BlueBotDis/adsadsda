@@ -61,7 +61,7 @@ function timerFunc() {
 
 
 
-var timer = setTimeout(timerFunc, 150000);//Good Speed : 870 Very Fast : 305
+var timer = setTimeout(timerFunc, 15000);//Good Speed : 870 Very Fast : 305
 
 client.on('ready', () => console.log('ProBot Credits Miner v2'));//كلام يظهر فل كونسول
 

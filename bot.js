@@ -43,7 +43,7 @@ function timerFunc() {
   
   
     client.on('message', msg => {//Rie
-        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(3654).substring(700)) // 
+        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(700)) // 
 
 
     });
@@ -52,7 +52,7 @@ function timerFunc() {
 
 
     client.on('message', msg => {
-        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(3644).substring(700)) // 
+        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(36).substring(700)) // 
 
 
     });

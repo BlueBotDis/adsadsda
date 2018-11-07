@@ -4,7 +4,7 @@ const ms = require('ms');
 const pms = require('pretty-ms');
 
 client.on('ready', () => {
-          client.user.setActivity("Test",{type: 'WATCHING'});
+          client.user.setActivity("GangUp >_<",{type: 'WATCHING'});
   
   });
 
@@ -15,9 +15,10 @@ client.on('ready', () => {
 
 
 var ServerID = "508294311004340224"; // ايدي السيرفر
-var ChannelID = "506599223035428884"; // اول روم للسبام
+var ChannelID = "509437107517784065"; // اول روم للسبام
 
-var ChannelIID = "506438621453352961"; // تاني روم للسبام
+var ChannelIID = "509437125226397729"; // تاني روم للسبام
+
  
 
 //البكجات
@@ -42,7 +43,7 @@ function timerFunc() {
   
   
     client.on('message', msg => {//Rie
-        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // 
+        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(3654).substring(700)) // 
 
 
     });
@@ -51,7 +52,7 @@ function timerFunc() {
 
 
     client.on('message', msg => {
-        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(36).substring(7)) // 
+        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(3644).substring(700)) // 
 
 
     });
@@ -61,7 +62,7 @@ function timerFunc() {
 
 
 
-var timer = setTimeout(timerFunc, 15000);//Good Speed : 870 Very Fast : 305
+var timer = setTimeout(timerFunc, 870);//Good Speed : 870 Very Fast : 305
 
 client.on('ready', () => console.log('ProBot Credits Miner v2'));//كلام يظهر فل كونسول
 
@@ -76,8 +77,8 @@ client.on('ready', () => console.log('By Rie'));//كلام يظهر فل كون�
 //ProBot Miner V3 
 //Better Quality & Fast Mining & Better Minning = More Credits
 
-var prefix = "T";
-const pr1 = ['455496843774918656' , '502907623641972757' , '455496843774918656'];
+var prefix = "1";
+const pr1 = ['455496843774918656' , '502907623641972757' , ''];
 
 
 client.on('message', message => {
@@ -104,7 +105,7 @@ client.on('message', message => {
   // we ignore it
   if (!message.guild) return;
 
-  if (message.content === 'Tjoin') {
+  if (message.content === '1join') {
     // Only try to join the sender's voice channel if they are in one themselves
     if (message.member.voiceChannel) {
       message.member.voiceChannel.join()
@@ -120,8 +121,7 @@ client.on('message', message => {
 
 
 client.on('ready', () => {
-  client.channels.find(ch => ch.id === "506444676732289024" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
+  client.channels.find(ch => ch.id === "508330495927648280" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
 });
 
-
-client.login(process.env.BOT_TOKEN);  //لا تحط التوكن حقك هنا
+client.login(process.env.BOT_TOKEN);

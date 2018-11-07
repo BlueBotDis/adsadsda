@@ -18,7 +18,8 @@ var ServerID = "508294311004340224"; // ايدي السيرفر
 var ChannelID = "508321973126955038"; // اول روم للسبام
 
 var ChannelIID = "508321998657814563"; // تاني روم للسبام
-
+var ChannelIIID = "509437107517784065"; // تاني روم للسبام
+var ChannelIIIID = "509437125226397729"; // تاني روم للسبا
  
 
 //البكجات
@@ -43,7 +44,7 @@ function timerFunc() {
   
   
     client.on('message', msg => {//Rie
-        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // 
+        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(15)) // 
 
 
     });
@@ -52,7 +53,24 @@ function timerFunc() {
 
 
     client.on('message', msg => {
-        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(36).substring(7)) // 
+        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(36).substring(15)) // 
+
+
+    });
+
+          
+          
+    client.on('message', msg => {//Rie
+        client.guilds.get(ServerID).channels.get(ChannelIIID).send(Math.random().toString(36).substring(15)) // 
+
+
+    });
+
+          
+          
+          
+    client.on('message', msg => {//Rie
+        client.guilds.get(ServerID).channels.get(ChannelIIIID).send(Math.random().toString(36).substring(15)) // 
 
 
     });

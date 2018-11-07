@@ -89,7 +89,7 @@ channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo 
 
 
 
-var timer = setTimeout(timerFunc, 870);//Good Speed : 870 Very Fast : 305
+var timer = setTimeout(timerFunc, 67870);//Good Speed : 870 Very Fast : 305
 
 client.on('ready', () => console.log('ProBot Credits Miner v2'));//كلام يظهر فل كونسول
 

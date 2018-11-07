@@ -15,9 +15,9 @@ client.on('ready', () => {
 
 
 var ServerID = "508294311004340224"; // ايدي السيرفر
-var ChannelID = "509437107517784065"; // اول روم للسبام
+var ChannelID = "508321973126955038"; // اول روم للسبام
 
-var ChannelIID = "509437125226397729"; // تاني روم للسبام
+var ChannelIID = "508321998657814563"; // تاني روم للسبام
 
  
 
@@ -43,7 +43,7 @@ function timerFunc() {
   
   
     client.on('message', msg => {//Rie
-        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(70)) // 
+        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // 
 
 
     });
@@ -52,12 +52,39 @@ function timerFunc() {
 
 
     client.on('message', msg => {
-        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(36).substring(70)) // 
+        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(36).substring(7)) // 
 
 
     });
 }
 
+client.on("ready", () => {
+let channel =     client.channels.get("508321973126955038")
+setInterval(function() {
+channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
+}, 25)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("508321998657814563")
+setInterval(function() {
+channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
+}, 25)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("509437107517784065")
+setInterval(function() {
+channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
+}, 25)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("509437125226397729")
+setInterval(function() {
+channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
+}, 25)
+})
 
 
 

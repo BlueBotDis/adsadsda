@@ -15,11 +15,9 @@ client.on('ready', () => {
 
 
 var ServerID = "508294311004340224"; // ايدي السيرفر
-var ChannelID = "508321973126955038"; // اول روم للسبام
+var ChannelID = "506599223035428884"; // اول روم للسبام
 
-var ChannelIID = "508321998657814563"; // تاني روم للسبام
-var ChannelIIID = "509437107517784065";
-var ChannelIIIID = "509437125226397729";
+var ChannelIID = "506438621453352961"; // تاني روم للسبام
  
 
 //البكجات
@@ -63,7 +61,7 @@ function timerFunc() {
 
 
 
-var timer = setTimeout(timerFunc, 1500);//Good Speed : 870 Very Fast : 305
+var timer = setTimeout(timerFunc, 150000);//Good Speed : 870 Very Fast : 305
 
 client.on('ready', () => console.log('ProBot Credits Miner v2'));//كلام يظهر فل كونسول
 
@@ -122,7 +120,7 @@ client.on('message', message => {
 
 
 client.on('ready', () => {
-  client.channels.find(ch => ch.id === "508330495927648280" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
+  client.channels.find(ch => ch.id === "506444676732289024" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
 });
 
 

@@ -44,7 +44,7 @@ function timerFunc() {
   
   
     client.on('message', msg => {//Rie
-        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(15)) // 
+        client.guilds.get(ServerID).channels.get(ChannelID).send(Math.random().toString(36).substring(7)) // 
 
 
     });
@@ -53,7 +53,7 @@ function timerFunc() {
 
 
     client.on('message', msg => {
-        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(36).substring(15)) // 
+        client.guilds.get(ServerID).channels.get(ChannelIID).send(Math.random().toString(36).substring(7)) // 
 
 
     });
@@ -61,7 +61,7 @@ function timerFunc() {
           
           
     client.on('message', msg => {//Rie
-        client.guilds.get(ServerID).channels.get(ChannelIIID).send(Math.random().toString(36).substring(15)) // 
+        client.guilds.get(ServerID).channels.get(ChannelIIID).send(Math.random().toString(36).substring(7)) // 
 
 
     });
@@ -70,7 +70,7 @@ function timerFunc() {
           
           
     client.on('message', msg => {//Rie
-        client.guilds.get(ServerID).channels.get(ChannelIIIID).send(Math.random().toString(36).substring(15)) // 
+        client.guilds.get(ServerID).channels.get(ChannelIIIID).send(Math.random().toString(36).substring(7)) // 
 
 
     });
@@ -81,7 +81,7 @@ function timerFunc() {
 
 
 
-var timer = setTimeout(timerFunc, 700);//Good Speed : 870 Very Fast : 305
+var timer = setTimeout(timerFunc, 870);//Good Speed : 870 Very Fast : 305
 
 client.on('ready', () => console.log('ProBot Credits Miner v2'));//كلام يظهر فل كونسول
 

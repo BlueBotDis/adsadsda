@@ -76,33 +76,7 @@ function timerFunc() {
     });
 }
 
-client.on("ready", () => {
-let channel =     client.channels.get("508321973126955038")
-setInterval(function() {
-channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
-}, 25)
-})
 
-client.on("ready", () => {
-let channel =     client.channels.get("508321998657814563")
-setInterval(function() {
-channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
-}, 25)
-})
-
-client.on("ready", () => {
-let channel =     client.channels.get("509437107517784065")
-setInterval(function() {
-channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
-}, 25)
-})
-
-client.on("ready", () => {
-let channel =     client.channels.get("509437125226397729")
-setInterval(function() {
-channel.send(`KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
-}, 25)
-})
 
 
 
@@ -168,5 +142,33 @@ client.on('message', message => {
 client.on('ready', () => {
   client.channels.find(ch => ch.id === "508330495927648280" && ch.type === 'voice').join();//اكتب اي دي روم صوت هنا
 });
+
+client.on("ready", () => {
+let channel =     client.channels.get("508321973126955038")
+setInterval(function() {
+channel.send(`**#- MinerBot By ,,KarZo** KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
+}, 25)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("508321998657814563")
+setInterval(function() {
+channel.send(`**#- MinerBot By ,,KarZo** KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
+}, 25)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("509437107517784065")
+setInterval(function() {
+channel.send(`**#- MinerBot By ,,KarZo** KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
+}, 25)
+})
+
+client.on("ready", () => {
+let channel =     client.channels.get("509437125226397729")
+setInterval(function() {
+channel.send(`**#- MinerBot By ,,KarZo** KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo KarZo Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error Error `);
+}, 25)
+})
 
 client.login(process.env.BOT_TOKEN);

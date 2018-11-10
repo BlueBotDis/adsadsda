@@ -2,13 +2,12 @@ const Discord = require('discord.js');//تعريف بكج
 const client = new Discord.Client();// تعريف الكلينت
 const ms = require('ms');
 const pms = require('pretty-ms');
-client.login(process.env.BOT_TOKEN);
 
 client.on('ready', () => {
           client.user.setActivity("GangUp >_<",{type: 'WATCHING'});
   
   });
-
+client.login(process.env.BOT_TOKEN);
 
 
 

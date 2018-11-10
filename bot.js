@@ -171,14 +171,6 @@ channel.send(`**#- MinerBot By ,,KarZo** KarZo KarZo KarZo KarZo KarZo KarZo Kar
 }, 25)
 })
 
-const Discord = require('discord.js');
-const client = new Discord.Client();
-
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);  
-});
-
-
 client.on('ready', async() => {
 var server = "508294311004340224"; // ايدي السررفر
 var channel = "509437125226397729";//ايدي الروم
